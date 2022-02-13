@@ -1,0 +1,136 @@
+
+body{
+    min-height:50%;
+    overflow: auto;
+    margin:0;
+    padding: 0;
+    background-image: url(img/background2.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center; 
+}
+
+/* font */
+@font-face {
+    font-family: Destain;
+    src: url(font/Destain-KedA.otf);
+}
+
+#content {
+    background-color: #FDF2D9    ;
+    margin: 7.5% 20% 30% 20%;
+    border: 0px #FDE0D9 solid;
+}
+
+#videoCat{
+    text-align: center;
+    
+}
+
+#catVideo{
+    height: 320px;
+    width: 320px;
+}
+#catTable{
+   
+}
+#catColorTable {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-collapse: collapse;
+}
+
+table>tbody>tr>th , table>tbody>tr>td{
+    border: 2px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+/*& topNav properties */
+#topNavigator {
+    top: 0%;
+    margin-bottom: 10%;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+}
+#topNav{
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    border: 0px papayawhip solid;
+    text-align: center;
+    display: inline-block;
+    
+
+}
+
+#topNav li{
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    background-color: white;
+    display:inline-block;
+    padding-left:auto;
+    padding-right: auto;
+    border-bottom: 10px peachpuff solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#topNav a{
+    text-align: center ;
+    font-family: Destain;
+    
+}
+#topNav li:hover {
+    background-color: pink;
+    color: white;
+    border-bottom: 10px palevioletred solid;
+  }
+
+/* topIcon */
+#topIcon{
+
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    background-color:#FDE2D9   ;
+    font-family: Destain;
+    padding:14px 16px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(img/backgroundMb1.jpg);
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: center; 
+    }
+
+    #topIcon{
+        width: auto;
+        font-size: 52px;
+        text-align: left;
+        background-color:#FDE2D9   ;
+        font-family: Destain;
+        padding:12px 14px;
+        
+    }
+
+    #content {
+        font-size: 10px;
+        background-color: #FDF2D9  ;
+        margin: 29% 20% 20% 20%;
+        border: 0px #FDE0D9 solid;
+    }
+
+    #catVideo {
+        height: 260px;
+        width: 150px;
+    }
+
+  }
